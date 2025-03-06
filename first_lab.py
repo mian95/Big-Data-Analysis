@@ -30,7 +30,7 @@ a = np.array([
 ]
 )
 
-print(a[0,0,0,1,1,1,3])
+print(f"Element is the  : {a[0,0,0,1,1,1,3]}")
 print(f"Dimention : {a.ndim}")
 print(f"Shape : {a.shape}")
 print(f"Size: {a.size}")  
