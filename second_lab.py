@@ -7,7 +7,7 @@ zeros = np.zeros([2,3,4,6], dtype=np.int64)
 
 
 """create ones array with given datatype"""
-print(var=np.ones([3,5,6,8], dtype=np.float64))
+print(np.ones([3,5,6,8], dtype=np.int64))
 
 """Empty array creation"""
 print(np.empty([2,4,6,8]))

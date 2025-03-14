@@ -5,7 +5,7 @@ import numpy as np
 a = np.array([[1,2,3,7],[9,8,7,5]])
 b = np.array([[9,8,7],[1,2,3]])
 
-print( np.concatenate((a,b), axis=1) )### OR   np.concatenate((a,b), axis=0)
+print( np.concatenate((a,b), axis=1) ) ### OR   np.concatenate((a,b), axis=0)
 
 
 """Size ===> tells the total number of elements in the array"""
