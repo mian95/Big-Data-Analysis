@@ -1,4 +1,3 @@
-# Import necessary libraries
 from sklearn.datasets import load_breast_cancer, load_diabetes
 from sklearn.feature_selection import (
     SelectKBest, SelectPercentile, SelectFpr, SelectFdr, SelectFwe,
